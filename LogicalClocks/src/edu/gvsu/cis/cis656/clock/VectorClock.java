@@ -18,10 +18,13 @@ public class VectorClock implements Clock {
 
     @Override
     public void update(Clock other) {
-        JSONObject obj = new JSONObject(other.toString());
-        for(String key:obj.keySet()){
-            if (this.clock.get(key) < obj.getInt(key)){
-                this.clock.put(key, obj.getInt(key));
+        JSONObject currentClock = new JSONObject(this.clock);
+        JSONObject newClock = new JSONObject(other.toString());
+        for(String key:newClock.keySet()){
+            if (!currentClock.has(key)){
+                this.clock.put(key, newClock.getInt(key));
+            }else if (this.clock.get(key) < newClock.getInt(key)){
+                this.clock.put(key, newClock.getInt(key));
             }
         }
     }
@@ -50,8 +53,15 @@ public class VectorClock implements Clock {
 
     @Override
     public boolean happenedBefore(Clock other) {
-
-        return false;
+        JSONObject jsonObject = new JSONObject(this.clock);
+        Boolean happenedBefore = true;
+        for(String key: jsonObject.keySet()){
+            if(jsonObject.getInt(key) > other.getTime(Integer.parseInt(key))){
+                happenedBefore = false;
+                break;
+            }
+        }
+        return happenedBefore;
     }
 
     public String toString() {
@@ -61,7 +71,17 @@ public class VectorClock implements Clock {
 
     @Override
     public void setClockFromString(String clock) {
+        Boolean readyToSet = true;
         JSONObject jsonObject = new JSONObject(clock);
+        for(String key: jsonObject.keySet()){
+            if(!(jsonObject.get(key) instanceof Integer)){
+                readyToSet = false;
+                break;
+            }
+        }
+        if(!readyToSet){
+            return;
+        }
         this.clock.clear();
         for(String key:jsonObject.keySet()){
             this.clock.put(key,jsonObject.getInt(key));
@@ -79,6 +99,7 @@ public class VectorClock implements Clock {
 
     @Override
     public void addProcess(int p, int c) {
+        JSONObject jsonObject = new JSONObject(this.clock);
         this.clock.put(String.valueOf(p),c);
     }
 }
