@@ -38,27 +38,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatClient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/ChatClient.java">
+      <file leaf-file-name="VectorClockTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/edu/gvsu/cis/cis656/chat/VectorClockTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="148">
+              <caret line="286" column="97" lean-forward="true" selection-start-line="286" selection-start-column="97" selection-end-line="286" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/message/Message.java">
+      <file leaf-file-name="ChatClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/ChatClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+            <state relative-caret-position="98">
+              <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,8 +67,8 @@
       <file leaf-file-name="ChatClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/CIS656-Lab3-master/src/main/java/edu/gvsu/cis/cis656/ui/ChatClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="-636">
+              <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,6 +104,14 @@
       <find>initializeNetwork</find>
       <find>address</find>
       <find>InetAddress</find>
+      <find>receiveMessage</find>
+      <find>myPidmyPid</find>
+      <find>thre</find>
+      <find>Thread</find>
+      <find>prip</find>
+      <find>MessageComparator</find>
+      <find>add</find>
+      <find>comp</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -120,7 +128,6 @@
         <option value="$PROJECT_DIR$/test/edu/gvsu/cis/cis656/VectorClockTests.java" />
         <option value="$PROJECT_DIR$/src/edu/gvsu/cis/cis656/VectorClock.java" />
         <option value="$PROJECT_DIR$/src/edu/gvsu/cis/cis656/Message.java" />
-        <option value="$PROJECT_DIR$/src/edu/gvsu/cis/cis656/queue/PriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/edu/gvsu/cis/cis656/Server.java" />
         <option value="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/edu/gvsu/cis/cis656/message/MessageTypes.java" />
@@ -132,6 +139,8 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/edu/gvsu/cis/cis656/Main.java" />
         <option value="$PROJECT_DIR$/src/edu/gvsu/cis/cis656/message/Message.java" />
+        <option value="$USER_HOME$/Downloads/CIS656-Lab3-master/src/main/java/edu/gvsu/cis/cis656/ui/ChatClient.java" />
+        <option value="$PROJECT_DIR$/src/edu/gvsu/cis/cis656/queue/PriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/edu/gvsu/cis/cis656/ChatClient.java" />
       </list>
     </option>
@@ -182,6 +191,62 @@
             <path>
               <item name="LogicalClocks" type="b2602c69:ProjectViewProjectNode" />
               <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogicalClocks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogicalClocks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogicalClocks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogicalClocks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="gvsu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogicalClocks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="gvsu" type="462c0819:PsiDirectoryNode" />
+              <item name="cis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogicalClocks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="gvsu" type="462c0819:PsiDirectoryNode" />
+              <item name="cis" type="462c0819:PsiDirectoryNode" />
+              <item name="cis656" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogicalClocks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,6 +254,27 @@
               <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cis656" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogicalClocks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cis656" type="462c0819:PsiDirectoryNode" />
+              <item name="clock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogicalClocks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cis656" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogicalClocks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogicalClocks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cis656" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -349,7 +435,7 @@
       <workItem from="1509133142796" duration="5082000" />
       <workItem from="1509913848208" duration="206000" />
       <workItem from="1509915153758" duration="43000" />
-      <workItem from="1509915348420" duration="23052000" />
+      <workItem from="1509915348420" duration="25677000" />
     </task>
     <servers />
   </component>
@@ -386,11 +472,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55307000" />
+    <option name="totallyTimeSpent" value="57932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -400,12 +485,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40723562" sideWeight="0.5042598" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3737518" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3737518" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23203126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23203126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -437,7 +522,7 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -734,26 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/queue/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
-          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/message/MessageComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -770,29 +835,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/clock/VectorClockComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/gvsu/cis/cis656/chat/VectorClockTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="85" column="21" lean-forward="true" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,13 +867,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/clock/VectorClock.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/net/InetAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="188" column="6" lean-forward="false" selection-start-line="188" selection-start-column="6" selection-end-line="188" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -838,18 +883,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/net/InetAddress.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/clock/VectorClock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="188" column="6" lean-forward="false" selection-start-line="188" selection-start-column="6" selection-end-line="188" selection-end-column="6" />
+        <state relative-caret-position="137">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/clock/VectorClockComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/CIS656-Lab3-master/src/main/java/edu/gvsu/cis/cis656/ui/ChatClient.java">
+    <entry file="file://$PROJECT_DIR$/test/edu/gvsu/cis/cis656/chat/VectorClockTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="148">
+          <caret line="286" column="97" lean-forward="true" selection-start-line="286" selection-start-column="97" selection-end-line="286" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/queue/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/message/MessageComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -858,8 +933,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/message/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        <state relative-caret-position="137">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/CIS656-Lab3-master/src/main/java/edu/gvsu/cis/cis656/ui/ChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-636">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -868,12 +953,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/gvsu/cis/cis656/ChatClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="98">
+          <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
           </folding>
         </state>
       </provider>
