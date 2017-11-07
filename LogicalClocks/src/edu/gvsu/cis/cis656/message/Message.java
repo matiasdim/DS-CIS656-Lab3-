@@ -28,7 +28,7 @@ public class Message {
         this.tag = 0;
     }
 
-    public static Message parseMessage(String msg) {
+        public static Message parseMessage(String msg) {
         JSONObject obj = new JSONObject(msg);
         int type = obj.getInt("type");
         int pid = obj.getInt("pid");
