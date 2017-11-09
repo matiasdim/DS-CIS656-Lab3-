@@ -74,7 +74,7 @@ public class ChatClient {
             printCondition = checkForPrint(topMessage.ts, topMessage.pid);
             if (printCondition){
                 System.out.println();
-                System.out.println(receivedMessage.sender + ": " + topMessage.message);
+                System.out.println(topMessage.sender + ": " + topMessage.message);
                 System.out.print("Write a message or 'exit' to finish: ");
                 this.priorityQueue.remove(topMessage);
                 this.vectorClock.update(topMessage.ts);
